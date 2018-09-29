@@ -65,9 +65,8 @@ cd open-ethereumclassic-pool
 make
 ```
 ### Configurations
-It is highly recommended to run each service individually.
-* Create configs for each service, disabling or removing service entries from each config
-  * `api.json`
+It is highly recommended to run each service individually. Create configs for each service, disabling or removing service entries from each config
+* `api.json`
 ```json
 {
     "threads": 2,
@@ -161,7 +160,7 @@ It is highly recommended to run each service individually.
 	}
 }
 ```
-  * `unlocker.json`
+* `unlocker.json`
 ```json
 {
 	"threads": 2,
@@ -194,7 +193,7 @@ It is highly recommended to run each service individually.
 	}
 }
 ```
-  * `payouts.json`
+* `payouts.json`
 ```json
 {
 	"threads": 2,
