@@ -15,19 +15,19 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//yourdomain.com/',
+      ApiUrl: '//pool.aiominer.com/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://yourdomain.com',
+      HttpHost: 'http://pool.aiominer.com',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: 'yourdomain.com',
+      StratumHost: 'pool.aiominer.com',
       StratumPort: 8008,
 
       // Fee and payout details
-      PoolFee: '1%',
-      PayoutThreshold: '0.5 Ether',
+      PoolFee: '0%',
+      PayoutThreshold: '0.2 Ether',
 
       // For network hashrate (change for your favourite fork)
       BlockTime: 14.4
